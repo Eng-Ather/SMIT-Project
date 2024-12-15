@@ -5,7 +5,7 @@ import React from "react";
 
 function Home() {
   return (
-    <div className=" mt-5 ">
+    <div className=" mt-5  bg-red-500">
       <h1 className=" text-blue-900 text-2xl text-center">
         Welcome to the Home Page!
       </h1>

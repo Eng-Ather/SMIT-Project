@@ -7,9 +7,9 @@ import logo from "../images/logo.png";
 
 function Footer() {
   return (
-    <footer className="text-white py-10 mt-12">
+    <footer className="text-white pt-10 mt-12">
       <div
-        className="mx-auto text-center bg-cover bg-center py-10"
+        className="mx-auto text-center bg-cover bg-center py-2"
         style={{ backgroundImage: `url(${footerImage})` }}
       >
         <div className="flex flex-col md:flex-row items-center justify-between w-full px-4 md:px-12 lg:px-24">
