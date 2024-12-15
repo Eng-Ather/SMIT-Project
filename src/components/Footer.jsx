@@ -1,6 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
+<<<<<<< Updated upstream
 import { FaFacebook, FaTwitter, FaPhone, FaEnvelope, FaYoutube, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+=======
+<<<<<<< HEAD
+import {
+  FaFacebook,
+  FaTwitter,
+  FaYoutube,
+  FaInstagram,
+  FaLinkedin,
+  FaWhatsapp,
+} from "react-icons/fa";
+=======
+import { FaFacebook, FaTwitter, FaPhone, FaEnvelope, FaYoutube, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+>>>>>>> d2e041a3534d4888411ce86143c43165f0dd0c79
+>>>>>>> Stashed changes
 
 import footerImage from "../images/footerImage.jpg";
 import logo from "../images/logo.png";
@@ -59,26 +74,62 @@ function Footer() {
                   href="https://www.facebook.com/saylani.smit/"
                   target="_blank"
                   rel="noopener noreferrer"
+<<<<<<< Updated upstream
                   className="w-6 h-6 flex justify-center items-center rounded-full bg-white text-blue-500 hover:text-blue-500 hover:scale-150 duration-300 "
 
                 >
                   <FaFacebook size={18} />
+=======
+<<<<<<< HEAD
+                  className="w-8 h-8 rounded-full bg-white flex justify-center items-center text-blue-500 hover:text-blue-500 hover:scale-150 duration-300 "
+                >
+                  <FaFacebook size={24} />
+                </a>
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-8 h-8 rounded-full bg-white flex justify-center items-center text-green-700 hover:text-green-700 hover:scale-150 duration-300 "
+                >
+                  <FaWhatsapp size={24} />
+=======
+                  className="w-6 h-6 flex justify-center items-center rounded-full bg-white text-blue-500 hover:text-blue-500 hover:scale-150 duration-300 "
+
+                >
+                  <FaFacebook size={18} />
+>>>>>>> d2e041a3534d4888411ce86143c43165f0dd0c79
+>>>>>>> Stashed changes
                 </a>
                 <a
                   href="https://www.youtube.com/playlist?list=PL47LaC9-GaXXwcuZ0Ho_AxbjEjO087AD_"
                   target="_blank"
                   rel="noopener noreferrer"
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+                  className="w-8 h-8 rounded-full flex items-center justify-center bg-white text-red-500 hover:text-red-500 hover:scale-150 duration-300 "
+=======
+>>>>>>> Stashed changes
                   className="w-6 h-6 flex justify-center items-center rounded-full bg-white text-red-500 hover:text-red-500 hover:scale-150 duration-300 "
 
+>>>>>>> d2e041a3534d4888411ce86143c43165f0dd0c79
                 >
                   <FaYoutube size={18} />
                 </a>
+
                 <a
                   href="https://www.linkedin.com/company/saylanimasstraining/"
                   target="_blank"
                   rel="noopener noreferrer"
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+                  className="w-8 h-8 rounded-full bg-white flex justify-center items-center text-blue-500 hover:text-blue-500 hover:scale-150 duration-300 "
+=======
+>>>>>>> Stashed changes
                   className="w-6 h-6 flex justify-center items-center rounded-full bg-white text-blue-500 hover:text-blue-500 hover:scale-150 duration-300 "
 
+>>>>>>> d2e041a3534d4888411ce86143c43165f0dd0c79
                 >
                   <FaLinkedin size={18} />
                 </a>
@@ -108,8 +159,18 @@ function Footer() {
         {/* Bottom Section: Copyright */}
         <div className="mt-4">
           <hr className="border-gray-500" />
+<<<<<<< Updated upstream
           <p className="text-center text-sm">
             &copy; 2024 LMS for Gulshan Campus SMIT with <b> TEAM - I. </b> All Rights
+=======
+<<<<<<< HEAD
+          <p className="text-center py-4 text-sm text-gray-400">
+            &copy; 2024 LMS for Gulshan Campus SMIT with <b className="text-white">" TEAM - I "</b> All Rights
+=======
+          <p className="text-center text-sm">
+            &copy; 2024 LMS for Gulshan Campus SMIT with <b> TEAM - I. </b> All Rights
+>>>>>>> d2e041a3534d4888411ce86143c43165f0dd0c79
+>>>>>>> Stashed changes
             Reserved.
           </p>
         </div>
