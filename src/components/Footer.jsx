@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaFacebook, FaTwitter, FaYoutube, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaPhone, FaEnvelope, FaYoutube, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 import footerImage from "../images/footerImage.jpg";
 import logo from "../images/logo.png";
@@ -26,10 +26,10 @@ function Footer() {
 
             {/* Navigation Links */}
             <div className="w-full md:w-2/3 text-center md:text-left">
-              <div className="flex justify-around md:justify-start space-x-6">
+              <div className="text-sm flex justify-around md:justify-start space-x-6">
                 <Link
                   to="/"
-                  className="text-white hover:text-gray-300 hover:underline decoration-2 underline-offset-4 transition duration-300"
+                  className="text-white  hover:text-gray-300 hover:underline decoration-2 underline-offset-4 transition duration-300"
                 >
                   Home
                 </Link>
@@ -47,44 +47,45 @@ function Footer() {
                 </Link>
               </div>
 
+              {/* Contact Links */}
+              <div className="text-sm flex justify-center items-center md:justify-start mt-3 space-x-2">
+              <p>(021) 111 729 526</p>
+                <p className=" text-green-500 "> <FaPhone size={15} /> </p>
+              </div>
+
               {/* Social Media Links */}
-              <div className="flex justify-around md:justify-start mt-6 space-x-6">
+              <div className="flex justify-around md:justify-start mt-3 space-x-6">
                 <a
                   href="https://www.facebook.com/saylani.smit/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-500 hover:text-blue-500 hover:scale-150 duration-300 "
+                  className="w-6 h-6 flex justify-center items-center rounded-full bg-white text-blue-500 hover:text-blue-500 hover:scale-150 duration-300 "
 
                 >
-                  <FaFacebook size={24} />
-                </a>
-                <a
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-green-400 hover:text-green-400 hover:scale-150 duration-300 "
-                >
-                  <FaWhatsapp size={24} />
+                  <FaFacebook size={18} />
                 </a>
                 <a
                   href="https://www.youtube.com/playlist?list=PL47LaC9-GaXXwcuZ0Ho_AxbjEjO087AD_"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-red-500 hover:text-red-500 hover:scale-150 duration-300 "
+                  className="w-6 h-6 flex justify-center items-center rounded-full bg-white text-red-500 hover:text-red-500 hover:scale-150 duration-300 "
 
                 >
-                  <FaYoutube size={24} />
+                  <FaYoutube size={18} />
                 </a>
                 <a
                   href="https://www.linkedin.com/company/saylanimasstraining/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-500 hover:text-blue-500 hover:scale-150 duration-300 "
+                  className="w-6 h-6 flex justify-center items-center rounded-full bg-white text-blue-500 hover:text-blue-500 hover:scale-150 duration-300 "
 
                 >
-                  <FaLinkedin size={24} />
+                  <FaLinkedin size={18} />
                 </a>
               </div>
+
+              
+
             </div>
           </div>
 
@@ -105,13 +106,12 @@ function Footer() {
         </div>
 
         {/* Bottom Section: Copyright */}
-        <div className="mt-8">
+        <div className="mt-4">
           <hr className="border-gray-500" />
-          <p className="text-center py-4 text-sm text-gray-400">
-            &copy; 2024 LMS for Gulshan Campus SMIT with TEAM - I. All Rights
+          <p className="text-center text-sm">
+            &copy; 2024 LMS for Gulshan Campus SMIT with <b> TEAM - I. </b> All Rights
             Reserved.
           </p>
-          <hr className="border-gray-500" />
         </div>
       </div>
     </footer>
